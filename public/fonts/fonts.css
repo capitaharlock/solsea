@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "GT-Sectra";
+  src: url('/fonts/GT-Sectra/Book/GT-Sectra-Fine-Book.eot');
+  src: url('/fonts/GT-Sectra/Book/GTSectraFine-Book.woff') format('woff'),
+       url('/fonts/GT-Sectra/GT-Sectra-Fine-Book.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GT-Sectra";
+  src: url('/fonts/GT-Sectra/Regular/GT-Sectra-Fine-Regular.eot');
+  src: url('/fonts/GT-Sectra/Regular/GTSectraFine-Regular.woff') format('woff'),
+       url('/fonts/GT-Sectra/GT-Sectra-Fine-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GT-Sectra";
+  src: url('/fonts/GT-Sectra/Medium/GT-Sectra-Fine-Medium.eot');
+  src: url('/fonts/GT-Sectra/Medium/GTSectraFine-Medium.woff') format('woff'),
+       url('/fonts/GT-Sectra/GT-Sectra-Fine-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GT-Sectra";
+  src: url('/fonts/GT-Sectra/Bold/GT-Sectra-Fine-Bold.eot');
+  src: url('/fonts/GT-Sectra/Bold/GTSectraFine-Bold.woff') format('woff'),
+       url('/fonts/GT-Sectra/GT-Sectra-Fine-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "GT-Sectra";
+  src: url('/fonts/GT-Sectra/Black/GT-Sectra-Fine-Black.eot');
+  src: url('/fonts/GT-Sectra/Black/GTSectraFine-Black.woff') format('woff'),
+       url('/fonts/GT-Sectra/GT-Sectra-Fine-Black.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SupremeLL";
+  src: url('/fonts/Supreme/SupremeLLWeb-Bold.woff2');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SupremeLLJumbo";
+  src: url('/fonts/Supreme/SupremeLLWeb-Jumbo.woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url('/fonts/OpenSans/OpenSans-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url('/fonts/OpenSans/OpenSans-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url('/fonts/OpenSans/OpenSans-SemiBold.ttf');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url('/fonts/OpenSans/OpenSans-Light.ttf');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+000-5FF; /* Latin glyphs */
+}

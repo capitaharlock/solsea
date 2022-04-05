@@ -1,0 +1,68 @@
+.collection-section {
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-size: cover;
+  padding: 0 0 0 0;
+
+  @media screen and (max-width: 600px) {
+    justify-content: center;
+  }
+}
+
+.poster {
+  margin-bottom: 16px;
+  transition: all 0.7s;
+
+  @media screen and (max-width: 600px) {
+    margin-left: 0;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  p {
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 0;
+    background-color: #4c56ef;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 0 5px 0 5px;
+    color: #fff;
+
+    @media screen and (max-width: 992px) {
+      font-size: 14px;
+    }
+    @media screen and (max-width: 600px) {
+      font-size: 11px;
+    }
+  }
+  .mobileImg {
+    display: none;
+
+    @media screen and (max-width: 600px) {
+      display: block;
+    }
+  }
+
+  .desktopImg {
+    @media screen and (max-width: 600px) {
+      display: none;
+    }
+  }
+}
+
+.hot-collection-item {
+  flex: 0 0 auto;
+  width: 20%;
+
+  @media screen and (max-width: 992px) {
+    flex: 0 0 auto;
+    width: 33%;
+    margin-bottom: 0;
+  }
+}

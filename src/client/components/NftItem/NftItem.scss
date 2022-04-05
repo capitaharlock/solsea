@@ -1,0 +1,234 @@
+@import "../../stylesheets/mixins.scss";
+
+* {
+  @include fThemeTransition;
+}
+
+.nft-item {
+  position: relative;
+  padding: 6px;
+  border-radius: 10px;
+  flex-direction: column;
+  width: 175px;
+  height: 250px;
+  background-color: var(--nft-coll-back);
+  box-shadow: 3px 5px 15px #04d3;
+  justify-content: space-evenly;
+
+  @media screen and (max-width: 992px) {
+    width: 162px;
+  }
+
+  @media screen and (max-width: 370px) {
+    width: 145px;
+  }
+
+  &.verified {
+    border: 3px solid var(--border-nft);
+  }
+
+  .list-button {
+    cursor: pointer;
+    margin-top: 10px;
+
+    .delist,
+    .list {
+      background-color: var(--nft-coll-back);
+      padding: 5px 15px;
+      border-radius: 8px;
+      color: var(--text-color);
+      font-weight: 700;
+      border: 2px solid var(--list-button);
+      transition: all 0.3s;
+    }
+
+    span {
+      font-size: 14px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+  }
+
+  &.listed {
+    background-color: #fafbff;
+  }
+
+  &.gold-item {
+    background: -webkit-linear-gradient(
+      -250deg,
+      #49b3ff2e 20%,
+      #ffffff,
+      #ffec8f87 88%
+    );
+  }
+}
+
+.price {
+  width: 100%;
+  color: var(--purple-teal);
+  white-space: nowrap;
+  font-weight: bold;
+  font-size: 16px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3px;
+
+  @media screen and (max-width: 600px) {
+    font-size: 15px;
+  }
+
+  i {
+    color: var(--blue);
+  }
+}
+
+.view-like-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  background-color: var(--nft-coll-back);
+  border-radius: 0px 10px 0px 6px;
+  width: 60%;
+  z-index: 1;
+
+  .like-container,
+  .views-container {
+    justify-content: center;
+    display: flex;
+    width: 50%;
+
+    .likes,
+    .views {
+      padding-left: 5px;
+      color: var(--like-view-text);
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .views-icon {
+      color: var(--like-view-icon);
+      font-size: 14px;
+      margin-right: 0 !important;
+    }
+
+    .like-button {
+      color: var(--like-view-icon);
+      font-size: 14px;
+      border: none;
+      background: 0 0;
+    }
+  }
+}
+
+.nft-item-info {
+  flex-direction: column;
+  align-items: flex-start;
+
+  a {
+    font-weight: bold;
+  }
+}
+
+.nft-item-wrap {
+  position: relative;
+
+  .nft-item-preview {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 6px;
+    // transition: transform 0.4s;
+
+    // &:hover {
+    //   transform: scale(1.04);
+    // }
+  }
+
+  .rarity {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: var(--nft-coll-back);
+    border-radius: 0 10px 0 0;
+    padding: 0 2px;
+    align-items: center;
+
+    .rank {
+      color: var(--like-view-text);
+      font-size: 13px;
+      font-weight: bold;
+      padding-right: 5px;
+      padding-left: 5px;
+    }
+
+    .rank-icon {
+      color: var(--like-view-icon);
+      font-weight: normal;
+      font-size: 16px;
+    }
+
+    .stars {
+      color: #fa0;
+      font-size: 13px;
+      padding-right: 5px;
+    }
+
+    .stars-icon {
+      color: #fa0;
+      font-size: 13px;
+    }
+  }
+}
+
+.nft-item-header {
+  border-bottom: 2px solid var(--border-bottom-nft);
+  max-height: 50px;
+  min-height: 50px;
+  flex-direction: column;
+
+  .title {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    color: var(--text-color);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .collection-link {
+    min-height: 25px;
+    line-height: 1.3em;
+
+    i {
+      color: var(--blue);
+    }
+
+    .collection-name {
+      font-weight: 700;
+      color: var(--text-color);
+      font-size: 13px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+  }
+}
+
+.no-cursor {
+  cursor: default !important;
+}
+
+.staked {
+  span {
+    color: var(--text-color);
+  }
+}
+
+.wallet-item {
+  height: 300px;
+}

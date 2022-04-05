@@ -1,0 +1,121 @@
+.required {
+  .limit {
+    color: #a99c9c;
+    font-size: 14px;
+  }
+  h5::before {
+    content: "* ";
+    color: red;
+  }
+}
+
+.d-create-file {
+  padding: 50px;
+  border-radius: 10px;
+  border: dashed 3px #dddddd;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  label {
+    cursor: pointer;
+    user-select: none;
+  }
+}
+
+.question {
+  color: #14a8ff;
+}
+
+.creators-select-container {
+  display: flex;
+  align-items: center;
+  & > div {
+    width: 100%;
+  }
+}
+
+.btn-add-creator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background-color: transparent;
+  border: none;
+
+  & > span {
+    font-size: 36px;
+    font-weight: bold;
+    color: #4e14ff;
+  }
+}
+
+.btn-add-creator:hover {
+  & > span {
+    color: #7d51ff;
+  }
+}
+
+.selected-creators {
+  margin-bottom: 20px;
+}
+
+.nft-item {
+  position: sticky;
+  top: 130px;
+  padding: 20px;
+  border: solid 1px #ddd;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  margin-bottom: 25px;
+  max-width: 350px;
+}
+
+.section {
+  margin-top: 0px;
+  width: 100%;
+  justify-content: center;
+
+  .submit {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  @media screen and (max-width: 600px) {
+    margin: 0 auto;
+  }
+}
+h4 {
+  text-align: center;
+}
+
+.trait-container {
+  @media screen and (max-width: 900px) {
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+  }
+}
+
+.form-border {
+  @media screen and (max-width: 1200px) {
+    width: 95%;
+  }
+}
+
+.create-page {
+  h5 {
+    color: var(--text-color);
+    margin-bottom: 10px;
+  }
+  p {
+    color: var(--text-color);
+  }
+
+  .field-section {
+    margin-bottom: 50px !important;
+  }
+}

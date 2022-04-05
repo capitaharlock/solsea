@@ -1,0 +1,38 @@
+.total-counter{
+  position: absolute;
+  right: 0;
+  top: 10px;
+  text-align: -webkit-match-parent;
+  color: #a4a4a4;
+  font-size: 20px;
+  margin: 0;
+  font-weight: 300;
+  // z-index: 50000;
+  display: block;
+}
+
+.activity {
+  position: relative;
+  .total-counter {
+    display: block;
+    @media screen and (max-width: 754px) {
+      display: none;
+    }
+  }
+}
+
+.explore-nft {
+  justify-content: flex-start;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: 600px) {
+    justify-content: center;
+  }
+}
+
+.container {
+  min-height: 500px;
+  margin-top: 0px;
+}

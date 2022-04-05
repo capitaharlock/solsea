@@ -1,0 +1,695 @@
+/// DARK GENERAL SETTINGS ///
+
+.dark,
+.dark-lighter,
+.dark-lighter-more,
+.dark-font,
+.dark-footer,
+.nav-bar-dark,
+.dark-feature-box,
+.dark-explore-switch,
+.dark-category-button,
+.dark-search,
+.dark-explore-collections,
+// .dark-nft-item,
+.dark-collection-item,
+.dark-nft-info-container,
+.dark-nft-page,
+.dark-wallet-switch,
+.dark-lighter-more-input,
+.dark-page-wrap,
+.dark-search-creator,
+.dark-search-collection {
+  transition: all 0.5s ease-in-out !important;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  // span,
+  // button,
+  p,
+  label,
+  &::placeholder {
+    color: #f4f7fcbb !important;
+    transition: all 0.5s ease-in-out;
+  }
+}
+
+/////////////////////////////
+
+////// LIGHT SETTINGS ///////
+
+.light,
+.light-grey,
+.light-white {
+  transition: background-color 0.5s ease-in-out;
+}
+
+.light {
+  background-color: #f4f7fc !important;
+}
+
+.light-grey {
+  background-color: #e5eaf3 !important;
+}
+
+.light-white {
+  background-color: #fff !important;
+}
+
+.light-not-allowed {
+  background-color: #ddd !important;
+}
+
+.light-font {
+  color: #f4f7fcbb !important;
+}
+
+.light-font-color {
+  color: #251552 !important;
+}
+
+.light-wallet-switch {
+  background-color: #f0f0f0 !important;
+}
+
+.light-explore-collections {
+  background-color: #f4f7fc !important;
+  padding-top: 60px;
+}
+
+.light-explore-nft {
+  background-color: #f4f7fc !important;
+  transition: all 0.5s ease-in-out !important;
+  &:hover {
+    background: #fff !important;
+    transform: translateY(-5px);
+  }
+}
+
+.dark-transparent-font {
+  color: transparent;
+}
+
+/////////////////////////////
+
+////// DARK SETTINGS //////
+
+.dark {
+  background-color: #1f212e !important;
+}
+
+.dark-lighter-no-shadow {
+  background-color: #242634 !important;
+}
+
+.dark-lighter {
+  background-color: #242634 !important;
+  box-shadow: 0 9px 9px #0003 !important;
+}
+
+.dark-lighter-no-box {
+  background-color: #242634 !important;
+}
+
+.dark-divided-section {
+  background-color: #242634 !important;
+  border: solid 1px #dddddd40 !important;
+  box-shadow: 3px 5px 15px #0003 !important;
+}
+
+.dark-collection-tag-holder {
+  background-color: #242634 !important;
+  border: solid 1px #dddddd40 !important;
+}
+
+.dark-lighter-more {
+  background-color: #242634 !important;
+  color: #f4f7fcbb !important;
+  border: dashed 3px #dddddd40 !important;
+}
+
+.dark-lighter-more-nft {
+  background-color: #242634 !important;
+  color: #f4f7fcbb !important;
+}
+
+.dark-lighter-more-like {
+  background-color: #1f212e !important;
+}
+
+.dark-creator-component {
+  &:hover {
+    background-color: #1f212e !important;
+  }
+}
+
+.dark-lighter-yellow {
+  background-color: #1f212e !important;
+  p {
+    color: #fa0 !important;
+  }
+  color: #fa0 !important;
+}
+
+.dark-font {
+  background-color: #303030 !important;
+}
+
+.dark-trait-background {
+  p {
+    color: #251552 !important;
+  }
+
+  .dark-trait-value {
+    color: #f4f7fcbb !important;
+    border-bottom-right-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+    background-color: #2b2d38 !important;
+  }
+}
+
+.dark-letter-font {
+  color: #251552 !important;
+  span {
+    color: #251552 !important;
+  }
+}
+
+.dark-page-wrap {
+  background-color: #1f212e !important;
+  min-height: 80vh;
+  transition: all 0.5s ease-in-out !important;
+}
+
+.dark-box-shadow {
+  box-shadow: 0 10px 20px #0003 !important;
+}
+
+/////////////////////////////
+
+/// DARK SWITCHES ///
+
+.dark-switch-button {
+  background-color: #222222 !important;
+  transition: all 0.5s ease-in-out !important;
+  h6 {
+    color: white !important;
+  }
+}
+
+.dark-wallet-switch {
+  background-color: #242634 !important;
+  span {
+    width: 0;
+    height: 2px;
+    transition: width 0.3s ease;
+    background-color: #ffffff !important;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  h6 {
+    color: #f4f7fcbb !important;
+  }
+}
+
+.dark-explore-switch-selected {
+  .dark-underline {
+    display: none;
+  }
+  background-color: #f4f7fc !important;
+  h6 {
+    color: #1f212e !important;
+  }
+}
+
+.dark-explore-switch {
+  &:hover {
+    .dark-underline {
+      width: 100%;
+    }
+  }
+  h6 {
+    color: #f4f7fcbb;
+  }
+}
+
+.dark-nav-bars-wrap-mobile {
+  border-left: 1px solid #808080 !important;
+}
+
+.dark-underline {
+  width: 0;
+  height: 2px;
+  transition: width 0.3s ease;
+  background-color: #f4f7fc;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.dark-explore-switch-button {
+  background-color: #7b57d5;
+}
+
+/////////////////////////////
+
+/// DARK INPUTS AND FILTERS///
+
+.dark-lighter-checkbox {
+  background-color: #34364a !important;
+  // border: 1px solid #adadad !important;
+  color: #f4f7fc !important;
+  cursor: pointer !important;
+  &:checked {
+    background-color: #437dee !important;
+  }
+}
+
+.dark-lighter-more-input {
+  background-color: #242634 !important;
+  border: solid 1px #dddddd40 !important;
+  color: #f4f7fcbb !important;
+}
+
+.dark-lighter-price-input {
+  background-color: #1f212e !important;
+  border: solid 1px #dddddd40 !important;
+  color: white !important;
+}
+
+.dark-input-not-allowed {
+  background-color: #1c1e2a !important;
+  border: solid 1px #dddddd40 !important;
+  color: #f4f7fcbb !important;
+}
+
+.dark-category-button {
+  background-color: #34364a !important;
+  // box-shadow: 0 3px 5px #fff3 !important;
+
+  span {
+    color: #f4f7fc !important;
+  }
+
+  &:hover {
+    background-color: #525572 !important;
+    transform: translateY(-5px);
+  }
+}
+
+.dark-search {
+  background-color: #1f212e !important;
+  border: solid 1px #dddddd40 !important;
+  color: white !important;
+}
+
+.dark-search-creator {
+  background-color: #1f212e !important;
+  border: solid 1px #dddddd40 !important;
+  color: white !important;
+}
+
+.dark-search-collection {
+  background-color: #1f212e !important;
+  border: solid 1px #dddddd40 !important;
+  color: white !important;
+}
+
+.dark-dropdown {
+  background-color: #222222 !important;
+}
+
+.dark-dropdown-button {
+  color: #222222 !important;
+}
+
+.dark-red {
+  .p {
+    color: red !important;
+  }
+}
+
+/////////////////////////////
+
+/// DARK NAV-BAR AND FOOTER ///
+
+.nav-bar-dark {
+  background-color: #1f212eaa !important;
+  span,
+  button {
+    color: #f4f7fcbb !important;
+    transition: all 0.5s ease-in-out;
+  }
+}
+
+.nav-bar-dark-mobile {
+  @media screen and (max-width: 992px) {
+    background: #111111e6 !important;
+  }
+}
+
+.nav-bar-dark-menu {
+  background-color: #1f212e !important;
+  border: 1px solid #dddddd40 !important;
+
+  a,
+  button {
+    background-color: #1f212e !important;
+    color: #f4f7fcbb !important;
+    transition: none !important;
+
+    &:hover {
+      background-color: #5c287c !important;
+    }
+  }
+}
+
+.nav-bar-light-mobile {
+  background: transparent;
+}
+
+.dark-footer {
+  background: -webkit-linear-gradient(
+    -75deg,
+    #13141c 35%,
+    #242634 80%
+  ) !important;
+}
+
+/////////////////////////////
+
+/// DARK PAGES AND COMPONENTS ///
+
+.dark-cookies {
+  background-color: #1f212e87 !important;
+  border-top: 1px dashed #f4f7fcbb !important;
+
+  p {
+    color: #f4f7fcbb !important;
+  }
+}
+
+.dark-loader {
+  background-color: #101010cc !important;
+}
+
+.dark-feature-box {
+  background-color: #34364a !important;
+  box-shadow: 3px 5px 15px #0003 !important;
+
+  a {
+    color: #458cf5;
+  }
+}
+
+.dark-nft-item {
+  background-color: #34364a !important;
+  box-shadow: 3px 5px 15px #0003 !important;
+
+  h4,
+  h6 {
+    color: #f4f7fc;
+  }
+}
+
+.dark-nft-sales-item {
+  background-color: #34364a !important;
+  box-shadow: 3px 5px 15px #0003 !important;
+
+  h4,
+  h6,
+  span {
+    color: #f4f7fcbb !important;
+  }
+
+  .currency-sales-history {
+    color: #18b3cc !important;
+  }
+}
+
+.dark-nft-border-top-bottom {
+  border-bottom: 2px solid #ddddee36 !important;
+  border-top: 2px solid #ddddee36 !important;
+}
+
+.dark-nft-item-verified {
+  border: 3px solid #127ab7 !important;
+}
+
+.dark-nft-border-bottom {
+  border-bottom: 2px solid #ddddee36 !important;
+}
+
+.dark-verified-badge {
+  background-color: #127ab7 !important;
+}
+
+.dark-verified-badge-color {
+  color: #127ab7 !important;
+}
+
+.dark-poster-container {
+  box-shadow: 3px 5px 15px #0003 !important;
+}
+
+.dark-nft-list {
+  background-color: #34364a !important;
+  color: #f4f7fcbb !important;
+  border: 2px solid #f4f7fcbb !important;
+}
+
+.dark-explore-collections {
+  background-color: #303030 !important;
+  padding-top: 60px;
+}
+
+.dark-lighter-edit-collection {
+  background-color: #242634 !important;
+  border: solid 2px #dddddd40 !important;
+  color: #f4f7fcbb !important;
+}
+
+.dark-collection-item {
+  background-color: #34364a !important;
+  box-shadow: 3px 5px 15px #0003 !important;
+  border: 3px solid #34364a !important;
+  h6 {
+    color: #f4f7fcbb !important;
+  }
+  span {
+    color: #f4f7fcbb !important;
+  }
+}
+
+.dark-unverified-collection {
+  background: #535658bb !important;
+  color: #94979bbb !important;
+}
+
+.dark-mode-page-button {
+  background-color: #1f212e !important;
+  color: #f4f7fcbb !important;
+  border: 1px solid #757679 !important;
+}
+
+.dark-mode-page-button-selected {
+  color: #f4f7fcbb !important;
+  border: 1px solid #757679 !important;
+  transition: all 0.5s ease-in-out !important;
+}
+
+// .dark-collection-stats-title {
+//   color: #babdc4 ;
+//   font-size: 18px;
+//   font-weight: 700;
+
+//   @media screen and (max-width: 600px) {
+//     font-size: 12px;
+//   }
+// }
+
+.dark-page-table-header {
+  span {
+    color: #f4f7fcbb !important;
+    transition: all 0.5s ease-in-out !important;
+  }
+}
+
+.dark-table-body {
+  tr:nth-child(even) {
+    transition: all 0.5s ease-in-out !important;
+    background: #1f212e !important;
+    td,
+    a {
+      color: #f4f7fcbb !important;
+    }
+  }
+  tr:nth-child(odd) {
+    transition: all 0.5s ease-in-out !important;
+    background: #242634 !important;
+    td,
+    a {
+      color: #f4f7fcbb !important;
+    }
+  }
+}
+
+.dark-collection-item-verified {
+  border: 3px solid #127ab7 !important;
+}
+
+.dark-user-collection-item {
+  background-color: #34364a !important;
+  box-shadow: 3px 5px 15px #0003 !important;
+  transition: all 0.5s ease-in-out !important;
+  h4 {
+    color: #f4f7fcbb !important;
+  }
+  span {
+    color: #251552 !important;
+  }
+  h6 {
+    color: #47c6dd !important;
+  }
+}
+
+.dark-nft-page {
+  background-color: #1f212e !important;
+
+  span,
+  button,
+  a {
+    color: #f4f7fc !important;
+  }
+}
+
+.dark-nft-price {
+  border-bottom: 2px solid #ddddee36 !important;
+
+  span {
+    color: #18b3cc !important;
+  }
+}
+
+.dark-nft-info-container {
+  background-color: #242634 !important;
+  box-shadow: 3px 5px 15px #0003 !important;
+
+  h6 {
+    color: #f4f7fc !important;
+    transition: all 0.5s ease-in-out !important;
+  }
+}
+
+.dark-rarity {
+  background-color: #1f212e !important;
+  color: #f4f7fcbb !important;
+}
+
+.transparent {
+  background-color: transparent !important;
+}
+
+.dark-volume-info-holder {
+  background-color: #242634 !important;
+  border: solid 2px #dddddd40 !important;
+  span {
+    color: #f4f7fc !important;
+  }
+}
+
+.dark-traits {
+  background-color: #34364a !important;
+  color: #f4f7fc !important;
+
+  &:hover {
+    background-color: #45485c !important;
+  }
+}
+
+.dark-traits-clicked {
+  background-color: #575b76 !important;
+  color: #f4f7fc;
+}
+
+.dark-trait-single {
+  background-color: #34364a !important;
+  color: #f4f7fc !important;
+}
+
+// Ne pitajte zasto id, Djura je
+
+#dark-trait-single-clicked {
+  background-color: #575b76 !important;
+  color: #f4f7fc !important;
+}
+
+.dark-trait-stats {
+  background-color: #1f212e !important;
+  border: 1px solid #4b4d5b !important;
+  color: #f4f7fc !important;
+
+  li {
+    border-right: 1px solid #4b4d5b !important;
+  }
+  li:last-child {
+    border-right: unset !important;
+  }
+}
+
+.light-trait-single {
+  span {
+    color: black !important;
+  }
+}
+
+.dark-views {
+  color: #8b91da !important;
+}
+
+.dark-likes {
+  button {
+    color: #ff14b7 !important;
+  }
+}
+
+.dark-font-color {
+  color: #f4f7fcbb !important;
+}
+
+.dark-calendar-item-year-holder {
+  background: #f4f7fc !important;
+  color: #26184f !important;
+}
+
+.dark-calendar-item-day-holder {
+  background: #26184f !important;
+  color: #f4f7fcbb !important;
+}
+
+/////////////////////////////
+
+///HOME PAGE UPCOMING COLLECTIONS COLORS ///
+
+.dark-mode-upcoming-collections-line {
+  background: -webkit-linear-gradient(
+    180deg,
+    #9a58c3 15%,
+    #4156f6,
+    #48dbd9 79%
+  ) !important;
+}
+
+.dark-fresh {
+  background-color: #34364a !important;
+  transition: all 0.5s ease-in;
+  box-shadow: 0 10px 20px #0003 !important;
+
+  span {
+    color: #f4f7fcbb !important;
+  }
+}

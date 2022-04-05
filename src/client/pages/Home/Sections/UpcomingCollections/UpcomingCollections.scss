@@ -1,0 +1,21 @@
+.poster {
+  margin-bottom: 17px;
+  transition: all 0.7s;
+
+  @media screen and (max-width: 600px) {
+    margin-left: 0;
+  }
+
+  img {
+    box-shadow: 3px 5px 15px #0044dd5c;
+    border-radius: 15px;
+  }
+
+  @media screen and (max-width: 600px) {
+    margin-left: 0;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}

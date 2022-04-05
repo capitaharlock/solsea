@@ -1,0 +1,27 @@
+{
+  "NAVBAR": "NAVBAR",
+
+  "navbar.collections": "Collections",
+  "navbar.collection": "Collection",
+  "navbar.explore": "Explorer",
+  "navbar.create": "Créer",
+  "navbar.menu": "Menu",
+  "navbar.connectWallet": "Connecter le portefeuille",
+  "navbar.wallet": "Portefeuille",
+  "navbar.listedNfts": "Mes NFT listés",
+  "navbar.walletNfts": "NFT dans mon portefeuille",
+  "navbar.myHistory": "Mon histoire",
+  "navbar.ftx": "Portefeuille de fonds FTX-Pay",
+  "navbar.disconnect": "Déconnecter le portefeuille",
+  "navbar.myProfile": "Mon profil",
+  "navbar.myCollections": "Mes collections",
+  "navbar.permission": "Permissions de frappe",
+  "navbar.editProfile": "Editer le profil",
+  "navbar.settings": "Paramètres",
+  "navbar.logout": "Se déconnecter",
+  "navbar.collectionVerification": "Vérification de la collecte",
+  
+  "homepage.selectLanguage": "Langue",
+  "homepage.titleAboveTheFold": "La place de marché ouverte NFT sur Solana",
+  "homepage.belowTitleAboveTheFold": "La première place de marché NFT qui permet aux créateurs de choisir et d'intégrer des licences lorsqu'ils créent des NFT. Les créateurs savent ce qu'ils vendent, les collectionneurs savent ce qu'ils achètent. Rejoignez la révolution."
+}

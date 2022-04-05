@@ -1,0 +1,44 @@
+.nft-creator-renderer {
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+  padding: 5px 10px 5px 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+
+  & > div {
+    display: flex;
+    align-items: center;
+  }
+
+  & > div > input {
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+}
+
+.btn-clear {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  border: none;
+
+  & > span {
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(255, 0, 98);
+  }
+}
+
+.btn-clear:hover {
+  & > span {
+    color: rgb(255, 106, 163);
+  }
+}

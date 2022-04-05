@@ -1,0 +1,94 @@
+@import "../../stylesheets/mixins.scss";
+
+.staking-wrapper {
+  display: flex;
+  justify-content: center;
+
+  .staking-content {
+    position: relative;
+    width: 640px;
+    @media screen and (max-width: 700px) {
+      padding: 0 20px;
+      width: 100%;
+    }
+    a {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      color: var(--text-color);
+      border: 1px solid var(--text-color);
+      padding: 5px 10px;
+    }
+  }
+  h4 {
+    color: var(--text-color);
+  }
+}
+
+.banner {
+  margin-bottom: 36px;
+}
+
+.balance-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 22px;
+  border-radius: 10px;
+  background-color: var(--secondary-background-color);
+  margin-bottom: 24px;
+  @include fThemeTransition;
+  .balance {
+    span {
+      color: var(--secondary-text-color);
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    p {
+      color: var(--text-color);
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 0; 
+    }
+    .wallet {
+      color: var(--purple-teal);
+    }
+  }
+  .right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+
+    .balance {
+      padding: 0 24px;
+      border-right: 2px solid var(--border-color);
+      &:last-of-type {
+        padding-right: 0;
+        border-right: none;
+      }
+    }
+  }
+
+  @media screen and (max-width: 340px) {
+   flex-wrap: wrap;
+   justify-content: center;
+   & > .balance {
+     margin-bottom: 10px;
+   }
+   .balance {
+     span, p {
+       text-align: center;
+       display: block;
+     }
+   }
+   .right {
+     .balance {
+       &:last-of-type {
+        padding-right: 24px;
+       }
+     }
+   }
+  }
+}

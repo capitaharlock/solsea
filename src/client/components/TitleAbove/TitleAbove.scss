@@ -1,0 +1,15 @@
+.title {
+  display: flex;
+  align-items: center;
+
+  h2 {
+    @media screen and (max-width: 992px) {
+      font-size: 25px;
+    }
+  }
+
+  span {
+    font-size: 30px;
+    margin-right: 10px;
+  }
+}

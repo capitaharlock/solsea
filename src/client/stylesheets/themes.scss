@@ -1,0 +1,216 @@
+.light-theme {
+  --background-color: #f4f7fc;
+  --secondary-background-color: #ffffff;
+  --tertiary-background-color: #f0f0f0;
+
+  --shadow-color: #04d3;
+
+  --text-color: #251552;
+  --secondary-text-color: #999999;
+
+  --highlight-color: #4e14ff;
+  --highlight-text: #ffffff;
+
+  --border-color: #e0e0e0;
+  --light-border-color: #d4d9dd;
+  --lighter-border-color: #f4f7fc;
+
+  --teal: #44ffd7;
+  --purple: #4e14ff;
+  --blue: #14a8ff;
+  --teal-lighten: #85ffe4;
+  --invertable-black: #000000;
+  --invertable-white: #ffffff;
+  --purple-teal: #4e14ff;
+  --blue-black: #14a8ff;
+
+  --danger-color: #dc3545;
+  --calender-month-font: #26184f;
+  --calender-year-back: #26184f;
+  --unverified-back: #bbb;
+  --verified-font: #fff;
+  --span-back: #727272;
+  --h4-color: #26184f;
+  --nft-coll-back: #fff;
+
+  --traits-btn-back: #fff;
+  --traits-btn-color: #251552;
+  --traits-hover-back: #cabdf3;
+  --traits-hover-color: #000;
+  --traits-selected-back: #cabdf3;
+  --traits-selected-color: #251552;
+
+  --trait-btn-back: #ded3ff;
+  --trait-btn-color: #251552;
+  --trait-btn-border: #ded3ff;
+  --selected-trait-back: #ae9ce7;
+  --stats-container-back: #fff;
+  --stats-container-border: #e7e1fd;
+  --stats-container-color: #000;
+  --li-border: #e7e1fd;
+  --trait-label-span-color: #251552;
+
+  --conect-wallet-btn-color: #fff;
+  --p-color: #4e14ff;
+  --dropdown-menu-back: #fff;
+  --dropdown-menu-color: #403f83;
+  --dropdown-a-back: #e9ecef;
+  --dropdown-a-color: #1e2125;
+  --profile-menu-color: #251552;
+  --dropdown-item-color: #212529;
+
+  --cookies-back: #ffffff9e;
+  --cookie-border: #251552;
+  --cookie-text: #251552;
+
+  --creator-hover: #eee;
+
+  --footer-back: -webkit-linear-gradient(-75deg, #1b1461 35%, #361b6b 80%);
+  --footer-p-color: #fffa;
+  --footer-h5: #fff;
+
+  --banner-box-shadow: #04d3;
+
+  --footer-back: -webkit-linear-gradient(-75deg, #1b1461 35%, #361b6b 80%);
+  --footer-p-color: #fffa;
+  --footer-h5: #fff;
+
+  --banner-box-shadow: #04d3;
+
+  --language-select-color: #251552;
+  --button-select: #fff;
+  --button-select-a-color: #000;
+  --button-select-a-hover-back: #e9ecef;
+  --button-select-a-hover-color: #1e2125;
+
+  --border-bottom-nft: #f0f0f0;
+  --border-nft: #14a8ff;
+  --like-view-text: #333333;
+  --like-view-icon: #999999;
+
+  --list-button: #251552;
+
+  --explore-filter-input-back: #fff;
+  --explore-filter-input-border: #4e14ff;
+  --explore-filter-serch-button-color: #4e14ff;
+  --explore-filter-category-button-back: #fff;
+  --explore-filters-category-span: #251552;
+  --explore-filters-category-hover-back: #4e14ff;
+
+  --sales-item-color: #fff;
+}
+
+.dark-theme {
+  --background-color: #1f212e;
+  --secondary-background-color: #242634;
+  --tertiary-background-color: #191b24;
+
+  --shadow-color: #0003;
+
+  --text-color: #bcbec6;
+  --secondary-text-color: #999999;
+
+  --highlight-color: #4e14ff;
+  --highlight-text: #ffffff;
+
+  --border-color: #e0e0e0;
+  --light-border-color: #d4d9dd;
+  --lighter-border-color: #222222;
+
+  --teal: #44ffd7;
+  --purple: #4e14ff;
+  --blue: #14a8ff;
+
+  --teal-lighten: #85ffe4;
+  --invertable-black: #ffffff;
+  --invertable-white: #000000;
+  --purple-teal: #44ffd7;
+  --blue-black: black;
+
+  --danger-color: #dc3545;
+  --calender-month-font: #f4f7fcbb;
+  --calender-year-back: #f4f7fc;
+  --unverified-back: #535658bb;
+  --verified-font: #f4f7fcbb;
+  --span-back: #f4f7fcbb;
+  --h4-color: #f4f7fcbb;
+  --nft-coll-back: #34364a;
+
+  --traits-btn-back: #34364a;
+  --traits-btn-color: #f4f7fc;
+  --traits-hover-back: #45485c;
+  --traits-hover-color: #f4f7fc;
+  --traits-selected-back: #575b76;
+  --traits-selected-color: #f4f7fc;
+
+  --trait-btn-back: #34364a;
+  --trait-btn-color: #f4f7fc;
+  --trait-btn-border: #34364a;
+  --selected-trait-back: #575b76;
+  --stats-container-back: #1f212e;
+  --stats-container-border: #4b4d5b;
+  --stats-container-color: #f4f7fc;
+  --li-border: #4b4d5b;
+  --trait-label-span-color: #f4f7fcbb;
+
+  --conect-wallet-btn-color: #f4f7fcbb;
+  --p-color: #f4f7fcbb;
+  --dropdown-menu-back: #1f212e;
+  --dropdown-menu-color: #403f83;
+  --dropdown-border: #dddddd40;
+  --dropdown-a-back: #5c287c;
+  --dropdown-a-color: #fff;
+  --profile-menu-color: #f4f7fcbb;
+  --dropdown-item-color: #f4f7fcbb;
+  --dropdown-item-back: #1f212e;
+
+  --cookies-back: #1f212e87;
+  --cookie-border: #f4f7fcbb;
+  --cookie-text: #f4f7fcbb;
+
+  --creator-hover: #1f212e;
+
+  --footer-back: -webkit-linear-gradient(-75deg, #13141c 35%, #242634 80%);
+  --footer-p-color: #f4f7fcbb;
+  --footer-h5: #f4f7fcbb;
+
+  --banner-box-shadow: #0003;
+
+  --cookies-back: #1f212e87;
+  --cookie-border: #f4f7fcbb;
+  --cookie-text: #f4f7fcbb;
+
+  --creator-hover: #1f212e;
+
+  --footer-back: -webkit-linear-gradient(-75deg, #13141c 35%, #242634 80%);
+  --footer-p-color: #f4f7fcbb;
+  --footer-h5: #f4f7fcbb;
+
+  --banner-box-shadow: #0003;
+
+  --language-select-color: #f4f7fcbb;
+  --button-select: #1f212e;
+  --button-select-a-color: #f4f7fcbb;
+  --button-select-a-hover-back: #5c287c;
+  --button-select-a-hover-color: #f4f7fcbb;
+  --button-select-border: #dddddd40;
+
+  --like-view-text: #999999;
+  --like-view-icon: #999999;
+
+  --border-bottom-nft: #ddddee36;
+  --border-nft: #127ab7;
+
+  --list-button: #f4f7fcbb;
+
+  --explore-filter-input-back: #1f212e;
+  --explore-filter-input-border: #dddddd40;
+  --explore-filter-input-color: #fff;
+  --explore-filter-serch-button-color: #fff;
+  --explore-filter-category-button-back: #34364a;
+  --explore-filters-category-span: #f4f7fc;
+  --explore-filters-category-hover-back: #525572;
+  --explire-filters-icon: brightness(15.5);
+
+  --sales-item-color: #34364a;
+}

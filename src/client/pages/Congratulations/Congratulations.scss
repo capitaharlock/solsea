@@ -1,0 +1,51 @@
+.container {
+	margin-bottom: 110px;
+}
+
+.congrats {
+  text-align: center;
+  height: 40vh;
+
+  i {
+    background-color: #46ffd7;
+    border-radius: 50%;
+    padding: 30px;
+    margin-bottom: 30px;
+    font-size: 83px;
+    color: #fff;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}
+
+.button-container {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.view-button {
+  background-color: #4e14ff;
+  text-align: center;
+  color: white;
+  border-radius: 6px;
+  font-weight: 800;
+  outline: none;
+  text-decoration: none;
+  font-size: 14px;
+  border: none;
+  padding: 15px 25px;
+  line-height: 1;
+  letter-spacing: 0.5px;
+  margin-left: 10px;
+  transition: box-shadow 0.3s ease;
+  &:hover {
+    box-shadow: 2px 2px 20px 0px rgba(#4e14ff, 0.5);
+    color: white;
+  }
+}

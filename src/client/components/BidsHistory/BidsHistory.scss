@@ -1,0 +1,39 @@
+.nav {
+  display: flex;
+}
+
+.button {
+  padding-bottom: 10px;
+  font-size: 22px;
+
+  span {
+    color: black;
+    transition: color 0.7s ease;
+    font-weight: bold;
+  }
+  &.active {
+    background-color: #403f83;
+
+    span {
+      color: white;
+    }
+  }
+}
+
+.item {
+  display: flex;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  p {
+    margin-bottom: 0;
+    text-align: left;
+
+    span {
+      color: #727272;
+    }
+  }
+}

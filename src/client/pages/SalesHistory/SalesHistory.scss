@@ -1,0 +1,15 @@
+.explore-nft {
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: 600px) {
+    justify-content: center;
+  }
+}
+
+.container {
+  min-height: 500px;
+  margin-top: 0px;
+}

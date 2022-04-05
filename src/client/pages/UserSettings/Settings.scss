@@ -1,0 +1,63 @@
+.section {
+  margin-top: 50px;
+  width: 100%;
+  justify-content: center;
+
+  h5 {
+    color: var(--text-color);
+  }
+  
+  @media screen and (max-width: 390px) {
+    margin: 0 auto;
+  }
+}
+
+.not-connected {
+  margin: 190px;
+  text-align: center;
+}
+
+.not-logged-in {
+  height: 80vh;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    font-size: 24px;
+  }
+}
+
+.submit {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.delete {
+  width: 100%;
+  margin-bottom: 100px;
+  background-color: red;
+  color: white;
+}
+
+.cancel {
+  width: 100%;
+  margin-top: 10px;
+  background-color: grey;
+  color: white;
+}
+
+.delete-form {
+  border: 2px solid grey;
+  border-radius: 10px;
+  background-color: lightgrey;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.delete-account {
+  width: 100%;
+  background-color: red;
+}

@@ -1,0 +1,75 @@
+.selectedTrait {
+  margin-bottom: 5px !important;
+  border-radius: 6px;
+  box-shadow: 1.5px 1.5px 3px rgba(0, 0, 0, 0.1);
+  background-color: var(--selected-trait-back) !important;
+  color: var(--trait-btn-color);
+  border: 0 solid var(--selected-trait-back);
+}
+
+.trait-btn {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 5px;
+  background-color: var(--trait-btn-back);
+  color: var(--trait-btn-color);
+  border-radius: 6px;
+  border: 0 solid var(--trait-btn-border);
+  text-align: left;
+  width: 100%;
+
+  @media screen and (max-width: 992px) {
+    width: 100%;
+  }
+
+  &:hover {
+    box-shadow: 0 0 7px #0008;
+  }
+
+  .traitLabel {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: 700;
+    padding: 0.375rem 0.75rem;
+
+    span {
+      color: var(--trait-label-span-color) !important;
+      font-weight: 600;
+    }
+  }
+
+  .statsContainer {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+    background-color: var(--stats-container-back);
+    border: 1px solid var(--stats-container-border);
+    color: var(--stats-container-color);
+    border-radius: 6px;
+    list-style: none;
+    margin: unset;
+    padding: unset;
+    width: 100%;
+    overflow: hidden;
+    padding: 0 5px;
+
+    & > li {
+      box-sizing: border-box;
+      margin: unset;
+      padding: 0 3px;
+      font-size: 12px;
+      border-right: 1px solid var(--li-border);
+      text-align: center;
+      width: 100%;
+    }
+
+    & > li:last-child {
+      border-right: unset;
+    }
+  }
+}

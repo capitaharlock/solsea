@@ -1,0 +1,48 @@
+{
+  "short_name": "Solsea",
+  "name": "Solsea",
+  "background_color": "#f5f5f5",
+  "description": "",
+  "start_url": "https://solsea.io/",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#fff",
+  "lang": "en-US",
+  "serviceworker": {
+    "src": "/vraaServiceWorker.js",
+    "update_via_cache": "imports"
+  },
+  "icons": [
+    {
+      "src": "/",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "/",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "/",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": [
+    "art",
+    "crypto",
+    "solana",
+    "nft"
+  ]
+}

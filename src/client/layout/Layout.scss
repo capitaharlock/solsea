@@ -1,0 +1,7 @@
+@import "../stylesheets/mixins.scss";
+@import "../stylesheets/index.scss";
+
+.root {
+	background-color: var(--background-color);
+	@include fThemeTransition;
+}

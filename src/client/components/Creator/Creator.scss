@@ -1,0 +1,32 @@
+.creator-container {
+  align-items: center;
+
+  .profile-image-container {
+    width: 45px;
+    height: 45px;
+    margin: 0 10px 0 0;
+    
+    img {
+      object-fit: cover;
+      border-radius: 50px;
+    }
+  }
+
+  .info {
+
+    .name {
+      font-weight: 700;
+    }
+    
+    p {
+      line-height: 1.4;
+      padding-left: 10px;
+    }
+  }
+}
+
+.root {
+  &:hover {
+    background-color: var(--creator-hover) !important;
+  }
+}

@@ -1,0 +1,36 @@
+.item-container {
+  justify-content: center;
+}
+
+.no-nft {
+  font-size: 24px;
+}
+
+.transaction-wrapper {
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: 992px) {
+    justify-content: center;
+  }
+
+  .history-item {
+    width: 50%;
+    margin-bottom: 20px;
+
+    @media screen and (max-width: 992px) {
+      width: 100%;
+    }
+  }
+
+  .explore-nft {
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+
+    @media screen and (max-width: 600px) {
+      justify-content: center;
+    }
+  }
+}

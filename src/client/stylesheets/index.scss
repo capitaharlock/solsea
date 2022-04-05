@@ -1,0 +1,11 @@
+:global {
+	@import "./themes.scss";
+	@import "./global.scss";
+	@import "./buttons.scss";
+	@import "./form.scss";
+	@import "./inputs.scss";
+	@import "./datepicker.scss";
+	@import "./dark-mode-variables.scss";
+	@import "./font-awesome/font-awesome.scss";
+	@import "react-notifications-component/dist/scss/notification.scss";
+}

@@ -1,0 +1,233 @@
+.search-input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+  width: 100%;
+  justify-content: center;
+
+  @media screen and (max-width: 1200px) {
+    margin-bottom: 0;
+  }
+
+  @media screen and (max-width: 600px) {
+    width: 100%;
+  }
+
+  input {
+    background: none;
+    padding: 7px 20px;
+    width: 70%;
+    border: solid 1px var(--explore-filter-input-border);
+    color: var(--explore-filter-input-color);
+    border-right: none;
+    border-right: none;
+    font-size: 16px;
+    border-radius: 6px 0 0 6px;
+    appearance: none;
+    outline: none;
+    background-color: var(--explore-filter-input-back);
+    @media screen and (max-width: 600px) {
+      width: 100%;
+    }
+  }
+
+  .search-button {
+    display: flex;
+    justify-content: center;
+    height: 42px;
+    width: 60px;
+    text-align: center;
+    padding: 7px 0;
+    border-radius: 0 6px 6px 0;
+    border: 1px solid var(--explore-filter-input-border);
+    border-left: none;
+    color: var(--explore-filter-serch-button-color);
+    cursor: pointer;
+    background-color: var(--explore-filter-input-back);
+  }
+}
+
+.filters {
+  display: flex;
+  white-space: nowrap;
+  flex-shrink: 0;
+
+  .dropdown {
+    min-width: 180px;
+    margin-right: 10px;
+    @media screen and (max-width: 600px) {
+      min-width: 130px;
+    }
+  }
+
+  input {
+    height: 100%;
+    border-radius: 4px;
+    border: solid 1px #ddd;
+    padding: 7px 12px 7px 12px;
+    background-color: #fff;
+    color: #251552;
+    border-radius: 5px;
+  }
+}
+
+.categories-holder {
+  margin-top: 30px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: distribute;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .categoryButton {
+    padding: 10px 0px;
+    flex-direction: row;
+    transition: all 0.3s;
+    align-items: center;
+    background: var(--explore-filter-category-button-back);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+    @media screen and (max-width: 600px) {
+      margin: 5px 5px;
+    }
+
+    img {
+      margin: 0 10px;
+      width: unset;
+      height: 32px;
+      @media screen and (max-width: 600px) {
+        height: 25px;
+      }
+    }
+
+    .icon {
+      filter: var(--explire-filters-icon);
+    }
+
+    span {
+      margin-right: 10px;
+      text-align: center;
+      color: var(--explore-filters-category-span);
+      font-size: 18px;
+      font-weight: 700;
+      padding-top: 5px;
+
+      @media screen and (max-width: 600px) {
+        font-size: 12px;
+        line-height: 1.5;
+      }
+    }
+
+    &:hover {
+      background-color: var(--explore-filters-category-hover-back);
+      transform: translateY(-5px);
+      
+      span {
+        color: #fff;
+      }
+
+      .icon {
+        filter: brightness(15.5);
+      }
+    }
+  }
+}
+
+.filters-switch {
+  display: flex;
+  padding-top: 0;
+  padding-bottom: 0;
+
+  .dropdown {
+    margin-right: 10px;
+    min-width: 210px;
+    @media screen and (max-width: 600px) {
+      min-width: 130px;
+    }
+  }
+}
+
+.filter-container {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 5px;
+
+  @media screen and (max-width: 1400px) {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+.switches-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  @media screen and (max-width: 1400px) {
+    margin-bottom: 10px;
+  }
+}
+
+.filters-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.total-counter {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  text-align: -webkit-match-parent;
+  color: #a4a4a4;
+  font-size: 20px;
+  margin: 0;
+  font-weight: 300;
+  display: block;
+}
+
+.search-container {
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  position: relative;
+
+  .total-counter {
+    display: none;
+  }
+
+  @media screen and (max-width: 754px) {
+    width: 100%;
+    .total-counter {
+      position: relative;
+      display: block;
+      right: 0px;
+      text-align: -webkit-match-parent;
+      color: #a4a4a4;
+      font-size: 20px;
+      font-weight: 300;
+      margin: auto;
+      text-align: center;
+      padding: 15px;
+    }
+  }
+}
+
+.multi-select {
+  @media screen and (max-width: 992px) {
+    margin-bottom: 10px;
+  }
+}
+
+.search-icon-container {
+  width: 18px;
+  height: 18px;
+}

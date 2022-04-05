@@ -1,0 +1,129 @@
+.connect-wallet-button {
+  background-color: #4e14ff;
+  text-align: center;
+  color: var(--conect-wallet-btn-color);
+  border-radius: 6px;
+  font-weight: 800;
+  outline: none;
+  text-decoration: none;
+  font-size: 14px;
+  border: none;
+  padding: 10px 20px;
+  line-height: 1;
+  letter-spacing: 0.5px;
+  margin-left: 10px;
+  transition: box-shadow 0.3s ease;
+  margin-left: 0;
+
+  &:hover {
+    box-shadow: 2px 2px 20px 0px rgba(#4e14ff, 0.5);
+  }
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 10px;
+  align-items: center;
+
+  p {
+    color: var(--p-color);
+    font-weight: 700;
+    font-size: 16px;
+    text-align: right;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 15px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+  }
+}
+
+.nav-item {
+  cursor: pointer;
+  position: relative;
+
+  @media screen and (max-width: 1024px) {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.nav-item {
+  cursor: pointer;
+  position: relative;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+  &:hover {
+    .dropdown-menu {
+      background-color: var(--dropdown-menu-back);
+      border: none;
+      box-shadow: 0 10px 20px #0153;
+      display: block;
+      color: var(--dropdown-menu-color);
+      width: 250px;
+    }
+  }
+
+  .dropdown-menu {
+    border: 1px solid var(--dropdown-border)!important;
+
+    .dropdown-item {
+      color: var(--dropdown-item-color);
+      background: var(--dropdown-item-back);
+
+      &:hover {
+        color: var(--dropdown-a-color);
+        background: var(--dropdown-a-back);
+      }
+    }
+  }
+}
+
+.profile-menu {
+  background-color: transparent;
+  text-align: center;
+  color: var(--profile-menu-color);
+  border-radius: 6px;
+  font-weight: 700;
+  outline: 0;
+  text-decoration: none;
+  font-size: 16px;
+  border: none;
+  padding: 8px 20px;
+  letter-spacing: 1px;
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: row;
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+  }
+
+  a {
+    @media screen and (max-width: 1024px) {
+      justify-content: center;
+    }
+  }
+}
+
+.wallet-button {
+  margin: 0 20px 0 20px;
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    box-shadow: 2px 2px 20px 0px rgba(#4e14ff, 0.5);
+  }
+}

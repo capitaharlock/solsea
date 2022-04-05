@@ -1,0 +1,35 @@
+.section {
+  margin-bottom: 50px;
+  width: 100%;
+  justify-content: center;
+
+  h3, h5 {
+    color: var(--text-color);
+  }
+  
+  @media screen and (max-width: 390px) {
+    margin: 0 auto;
+  }
+}
+
+.not-connected {
+  margin: 190px;
+}
+
+.not-logged-in {
+  height: 80vh;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    font-size: 24px;
+  }
+}
+
+.submit {
+  width: 100%;
+  margin-bottom: 100px;
+}

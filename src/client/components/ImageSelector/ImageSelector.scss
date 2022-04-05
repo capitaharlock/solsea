@@ -1,0 +1,19 @@
+.image-selector {
+  position: relative;
+  background-color: orange;
+}
+
+.custom-file-upload {
+  position: absolute;
+  cursor: pointer;
+  letter-spacing: 2px;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  padding: 10px;
+  border-radius: 50px;
+}
